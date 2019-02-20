@@ -1,12 +1,12 @@
 import setuptools
 
-CLIENT_VERSION = "0.1.0"
+CLIENT_VERSION = "1.1.0"
 PACKAGE_NAME = "sslclient"
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-with open('LICENSE.md') as f:
+with open('LICENSE.txt', "r") as f:
     license = f.read()
 
 EXTRAS = {}
@@ -25,7 +25,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="sslclient",
-    version="0.1.0",
+    version="1.1.0",
     author="Junior Lima",
     author_email="junior.lima.ivd.2@gmail.com",
     license=license,
