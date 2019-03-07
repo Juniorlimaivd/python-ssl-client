@@ -1,13 +1,10 @@
 import setuptools
 
-CLIENT_VERSION = "1.1.0"
+CLIENT_VERSION = "1.1.2"
 PACKAGE_NAME = "sslclient"
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-
-with open('LICENSE.txt', "r") as f:
-    license = f.read()
 
 EXTRAS = {}
 REQUIRES = []
@@ -25,10 +22,9 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="sslclient",
-    version="1.1.0",
+    version="1.1.2",
     author="Junior Lima",
     author_email="junior.lima.ivd.2@gmail.com",
-    license=license,
     description="SSLVision client API in python",
     long_description=long_description,
     long_description_content_type="text/markdown",
